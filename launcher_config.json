@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "layout": {
     "direction": "column",
     "spacing": "default",
@@ -7,14 +7,14 @@
   },
   "groups": [
     {
-      "weight": 0.55,
+      "weight": 0.50,
       "widgets": [
-        { "type": "navigation", "component": "default", "weight": 0.35 },
-        { "type": "media", "component": "default", "weight": 0.65 }
+        { "type": "navigation", "component": "default", "weight": 0.55 },
+        { "type": "media", "component": "default", "weight": 0.45 }
       ]
     },
     {
-      "weight": 0.45,
+      "weight": 0.50,
       "widgets": [
         { "type": "shortcuts", "component": "default", "weight": 1.0 },
         { "type": "weather", "component": "default", "weight": 1.0 },
