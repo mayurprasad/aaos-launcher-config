@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "layout": {
     "direction": "row",
     "spacing": "default",
@@ -9,16 +9,16 @@
     {
       "weight": 0.65,
       "widgets": [
-        { "type": "navigation", "component": "default", "weight": 1.0 },
-        { "type": "media", "component": "default", "weight": 1.0 },
-        { "type": "vehicle_status", "component": "default", "weight": 1.0 }
+        { "type": "navigation", "component": "default", "weight": 0.55 },
+        { "type": "media", "component": "default", "weight": 0.45 }
       ]
     },
     {
       "weight": 0.35,
       "widgets": [
-        { "type": "shortcuts", "component": "default", "weight": 2.0 },
-        { "type": "weather", "component": "default", "weight": 1.0 }
+        { "type": "shortcuts", "component": "default", "weight": 0.44 },
+        { "type": "weather", "component": "default", "weight": 0.28 },
+        { "type": "vehicle_status", "component": "default", "weight": 0.28 }
       ]
     }
   ]
