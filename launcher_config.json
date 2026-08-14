@@ -1,24 +1,24 @@
 {
-  "version": 10,
+  "version": 11,
   "layout": {
-    "direction": "row",
+    "direction": "column",
     "spacing": "default",
     "padding": "default"
   },
   "groups": [
     {
-      "weight": 0.65,
+      "weight": 0.50,
       "widgets": [
         { "type": "navigation", "component": "default", "weight": 0.55 },
         { "type": "media", "component": "default", "weight": 0.45 }
       ]
     },
     {
-      "weight": 0.35,
+      "weight": 0.50,
       "widgets": [
-        { "type": "shortcuts", "component": "default", "weight": 0.44 },
-        { "type": "weather", "component": "default", "weight": 0.28 },
-        { "type": "vehicle_status", "component": "default", "weight": 0.28 }
+        { "type": "shortcuts", "component": "default", "weight": 1.0 },
+        { "type": "weather", "component": "default", "weight": 1.0 },
+        { "type": "vehicle_status", "component": "default", "weight": 1.0 }
       ]
     }
   ]
