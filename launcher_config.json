@@ -1,5 +1,5 @@
 {
-  "version": 14,
+  "version": 15,
   "layout": {
     "direction": "row",
     "spacing": "default",
@@ -9,7 +9,6 @@
     {
       "weight": 0.65,
       "widgets": [
-        { "id": "slot-nav", "type": "navigation", "component": "auto", "weight": 1.0 },
         { "id": "slot-media", "type": "media", "component": "auto", "weight": 1.0 },
         { "id": "slot-vehicle", "type": "vehicle_status", "component": "auto", "weight": 1.0 }
       ]
