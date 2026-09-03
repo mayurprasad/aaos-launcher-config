@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "layout": {
     "direction": "row",
     "spacing": "default",
@@ -16,9 +16,9 @@
     {
       "weight": 0.35,
       "widgets": [
-        { "id": "slot-shortcuts", "type": "shortcuts", "component": "auto", "size":"default", "weight": 0.44 },
-        { "id": "slot-weather", "type": "weather", "component": "auto", "size":"medium_horizontal_rectangle", "weight": 0.28 },
-        { "id": "slot-vehicle", "type": "vehicle_status", "component": "auto", "size":"medium_horizontal_rectangle", "weight": 0.28 }
+        { "id": "slot-shortcuts", "type": "shortcuts", "component": "auto", "size":"default", "weight": 0.30 },
+        { "id": "slot-weather", "type": "weather", "component": "auto", "size":"default", "weight": 0.30 },
+        { "id": "slot-vehicle", "type": "vehicle_status", "component": "auto", "size":"medium_horizontal_rectangle", "weight": 0.40 }
       ]
     }
   ]
