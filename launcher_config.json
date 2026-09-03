@@ -1,24 +1,24 @@
 {
-  "version": 27,
+  "version": 28,
   "layout": {
-    "direction": "column",
+    "direction": "row",
     "spacing": "default",
     "padding": "default"
   },
   "groups": [
     {
-      "weight": 0.50,
+      "weight": 0.65,
       "widgets": [
-        { "id": "slot-nav", "type": "navigation", "component": "auto", "size": "medium_horizontal_rectangle", "weight": 0.55 },
-        { "id": "slot-media", "type": "media", "component": "auto", "size": "medium_horizontal_rectangle", "weight": 0.45 }
+        { "id": "slot-nav", "type": "navigation", "component": "auto", "size":"default", "weight": 1.0 },
+        { "id": "slot-media", "type": "media", "component": "auto", "size":"default", "weight": 1.0 },
+        { "id": "slot-vehicle", "type": "vehicle_status", "component": "auto", "size":"default", "weight": 1.0 }
       ]
     },
     {
-      "weight": 0.50,
+      "weight": 0.35,
       "widgets": [
-        { "id": "slot-shortcuts", "type": "shortcuts", "component": "auto", "size": "medium_horizontal_rectangle", "weight": 0.30 },
-        { "id": "slot-weather", "type": "weather", "component": "auto", "size": "medium_horizontal_rectangle", "weight": 0.30 },
-        { "id": "slot-vehicle", "type": "vehicle_status", "component": "auto", "size": "medium_horizontal_rectangle", "weight": 0.40 }
+        { "id": "slot-shortcuts", "type": "shortcuts", "component": "auto", "size":"default", "weight": 2.0 },
+        { "id": "slot-weather", "type": "weather", "component": "auto", "size":"default", "weight": 1.0 }
       ]
     }
   ]
