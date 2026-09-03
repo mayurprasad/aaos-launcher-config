@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "layout": {
     "direction": "column",
     "spacing": "default",
@@ -9,16 +9,16 @@
     {
       "weight": 0.50,
       "widgets": [
-        { "id": "slot-nav", "type": "navigation", "component": "auto", "weight": 0.55 },
-        { "id": "slot-media", "type": "media", "component": "auto", "weight": 0.45 }
+        { "id": "slot-nav", "type": "navigation", "component": "auto", "size": "medium_horizontal_rectangle", "weight": 0.55 },
+        { "id": "slot-media", "type": "media", "component": "auto", "size": "medium_horizontal_rectangle", "weight": 0.45 }
       ]
     },
     {
       "weight": 0.50,
       "widgets": [
-        { "id": "slot-shortcuts", "type": "shortcuts", "component": "auto", "weight": 1.0 },
-        { "id": "slot-weather", "type": "weather", "component": "auto", "weight": 1.0 },
-        { "id": "slot-vehicle", "type": "vehicle_status", "component": "auto", "weight": 1.0 }
+        { "id": "slot-shortcuts", "type": "shortcuts", "component": "auto", "size": "medium_horizontal_rectangle", "weight": 1.0 },
+        { "id": "slot-weather", "type": "weather", "component": "auto", "size": "medium_horizontal_rectangle", "weight": 1.0 },
+        { "id": "slot-vehicle", "type": "vehicle_status", "component": "auto", "size": "medium_horizontal_rectangle", "weight": 1.0 }
       ]
     }
   ]
