@@ -1,5 +1,5 @@
 {
-  "version": 23,
+  "version": 24,
   "layout": {
     "direction": "row",
     "spacing": "default",
@@ -10,7 +10,7 @@
       "weight": 0.65,
       "widgets": [
         { "id": "slot-nav", "type": "navigation", "component": "auto", "size":"default", "weight": 0.55 },
-        { "id": "slot-media", "type": "media", "component": "auto", "size":"default", "weight": 0.45 }
+        { "id": "slot-media", "type": "media", "component": "auto", "size":"medium_horizontal_rectangle", "weight": 0.45 }
       ]
     },
     {
