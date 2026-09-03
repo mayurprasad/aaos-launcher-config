@@ -1,5 +1,5 @@
 {
-  "version": 25,
+  "version": 26,
   "layout": {
     "direction": "column",
     "spacing": "default",
@@ -16,7 +16,7 @@
     {
       "weight": 0.50,
       "widgets": [
-        { "id": "slot-shortcuts", "type": "shortcuts", "component": "auto", "size": "medium_horizontal_rectangle", "weight": 0.30 },
+        { "id": "slot-shortcuts", "type": "shortcuts", "component": "auto", "size": "small_horizontal_rectangle", "weight": 0.30 },
         { "id": "slot-weather", "type": "weather", "component": "auto", "size": "medium_horizontal_rectangle", "weight": 0.30 },
         { "id": "slot-vehicle", "type": "vehicle_status", "component": "auto", "size": "medium_horizontal_rectangle", "weight": 0.40 }
       ]
